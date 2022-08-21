@@ -4,4 +4,4 @@ This is the repository of hands-on practice in NCKU-NITKC AI Robotics Lab in 202
 
 ## Topics
 ### Part1 - Image Recognition AI
-- Week3 - Introduction to PyTroch
+- Week3 - Introduction to PyTroch [notebook](https://github.com/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Part1/Week03_Introduction_to_PyTorch.ipynb)
