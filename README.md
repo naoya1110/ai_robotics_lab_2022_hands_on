@@ -9,4 +9,4 @@ This is the repository of hands-on practice in NCKU-NITKC AI Robotics Lab in 202
   - (supplimental material) Stochastic Descent Gradient [[notebook]](https://colab.research.google.com/github/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week03_supplemental_PyTorch_Simple_Linear_Regression_Example.ipynb)
 - Week04
   - Simple MLP model with the Iris Dataset [[notebook]](https://colab.research.google.com/github/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week04_Simple_MLP_Model_with_the_Iris_Dataset.ipynb)
-  - Follow Up [[notebook]](https://colab.research.google.com/github/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week04_follow_up.ipynb)
+  - (follow-up) How to use GPU, How to visualize PyTorch model [[notebook]](https://colab.research.google.com/github/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week04_follow_up.ipynb)
