@@ -10,3 +10,5 @@ This is the repository of hands-on practice in NCKU-NITKC AI Robotics Lab in 202
 - Week04
   - Simple MLP model with the Iris Dataset [[notebook]](https://colab.research.google.com/github/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week04_Simple_MLP_Model_with_the_Iris_Dataset.ipynb)
   - (follow-up) GPU and Model Visualization [[notebook]](https://colab.research.google.com/github/naoya1110/DL_Lecture_202107/blob/main/Week04_follow_up_GPU_and_Model_Visualization.ipynb)
+- Week05
+  - CNN with CIFAR10 dataset [[notebook]](https://colab.research.google.com/github/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week05_Convolutional_Neural_Network_with_CIFAR10_Dataset.ipynb)
