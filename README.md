@@ -19,5 +19,5 @@ This is the repository of hands-on practice in NCKU-NITKC AI Robotics Lab in 202
 - Week07
   - Image Classification Competition [[notebook]](https://colab.research.google.com/github/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week07_Image_Classification_Competition.ipynb)
 
-- Week07
+- Week08
   - Transfer Learning [[notebook]](https://colab.research.google.com/github/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week08_Transfer_Learning.ipynb)
