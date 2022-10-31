@@ -8,7 +8,7 @@ YouTube: https://youtu.be/6I9ZT5NKmsA
 4. Flash JetBot SD card image ```jetbot-043_nano-4gb-jp45.zip``` to the micro SD card with balenaEtcher.
 
 ## 2. First Boot and WiFi Setup
-1. Insret the micro SD card into the JetBot.
+1. Insert the micro SD card into the JetBot.
 2. Plug an HDMI display and a USB keyboard to the JetBot.
 3. Turn on the JetBot power switch to boot.
 4. Login with the username ```jetbot``` and the password ```jetbot```.
