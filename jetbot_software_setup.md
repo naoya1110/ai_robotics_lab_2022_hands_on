@@ -1,6 +1,8 @@
 # JetBot Software Setup
 Video Instruction: https://youtu.be/6I9ZT5NKmsA
+
 Official Instruction: https://jetbot.org/master/software_setup/sd_card.html
+
 Note that following instruction includes some important processes that are not included above.
 
 ## 1. Flash JetBot SD Card Image
