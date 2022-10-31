@@ -1,4 +1,5 @@
 # JetBot Software Setup
+YouTube: https://youtu.be/6I9ZT5NKmsA
 
 ## Flash JetBot SD Card Image
 1. Download JetBot SD card image from [here](https://drive.google.com/file/d/1o08RPDRZuDloP_o76tCoSngvq1CVuCDh/view?usp=sharing).
@@ -17,7 +18,26 @@
 8. Turn off the JetBot power switch.
 9. Unplug the HDMI display and the USB keyboard. From next time, we don't use the display and keyboard anymore.
 
-## Access to the JetBot via Web Browser
+## Additional Setup
+### Access to the JetBot via Web Browser
 1. Boot the JetBot. Wait for the JetBot to be connected to the WiFi.
 2. Check the IP address shown on the JetBot display.
-3. Open an web browser and access to ```http://<jetbot_ip_address>:8888```. e.g. ```http://192.168.10.2:8888```
+3. Make sure your computer is also connected to the same WiFi with your JetBot.
+4. Open an web browser and access to ```http://<JETBOT_IP_ADDRESS>:8888```, e.g. ```http://192.168.10.2:8888```.
+5. Login to the JetBot with the password ```jetbot```.
+
+### Install SSH and Expand Disk Space
+1. Open the Terminal from the Launcher.
+2. Execute the command ```apt update```
+3. Execute the command ```apt install ssh -y```
+4. Login with SSH ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
+5. Expand the diskspace
+    ```
+    cd jetcard
+    git pull
+    ```
+8. ```./scripts/jetson_install_nvresizefs_service.sh```
+9. ```sudo reboot now```
+
+## Regular Shutdown
+1. ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
