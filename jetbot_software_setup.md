@@ -2,7 +2,7 @@
 YouTube: https://youtu.be/6I9ZT5NKmsA
 
 ## 1. Flash JetBot SD Card Image
-1. Download JetBot SD card image from [here](https://drive.google.com/file/d/1o08RPDRZuDloP_o76tCoSngvq1CVuCDh/view?usp=sharing).
+1. Download JetBot SD card image for Jetson Nano 4GB from [here](https://drive.google.com/file/d/1o08RPDRZuDloP_o76tCoSngvq1CVuCDh/view?usp=sharing).
 2. Download balenaEtcher from [here](https://www.balena.io/etcher/) and install it to your PC.
 3. Instert an empty micro SD card into your PC.
 4. Flash JetBot SD card image ```jetbot-043_nano-4gb-jp45.zip``` to the micro SD card with balenaEtcher.
@@ -14,7 +14,7 @@ YouTube: https://youtu.be/6I9ZT5NKmsA
 4. Login with the username ```jetbot``` and the password ```jetbot```.
 5. Check available WiFi by the command ```sudo nmcli device wifi list``` with the password ```jetbot```.
 6. Connect to one of the available WiFi network by the command ```sudo nmcli device wifi connect <WiFi SSID> password <PASSWORD>```
-7. Shutdown the JetBot by the command ```sudo shutdown now```
+7. Shutdown the JetBot by the command ```sudo shutdown now```.
 8. Turn off the JetBot power switch.
 9. Unplug the HDMI display and the USB keyboard. From next time, we don't use the display and the keyboard anymore.
 
@@ -28,8 +28,8 @@ YouTube: https://youtu.be/6I9ZT5NKmsA
 
 ### Install SSH and Expand Disk Space
 1. Open the Terminal from the Launcher.
-2. Update apt by the command ```apt update```
-3. Install SSH by the command ```apt install ssh -y```
+2. Update apt by the command ```apt update```.
+3. Install SSH by the command ```apt install ssh -y```.
 4. Login via SSH by the command ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
 5. Expand the diskspace by the commands,
     ```
