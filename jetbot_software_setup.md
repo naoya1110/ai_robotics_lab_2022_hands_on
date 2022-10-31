@@ -18,7 +18,8 @@
 6. Connect to one of the available WiFi by the command ```sudo nmcli device wifi connect <WiFi_SSID> password <WiFi_PASSWORD>```
 7. Shutdown the JetBot by the command ```sudo shutdown now```.
 8. Turn off the JetBot power switch.
-9. Unplug the HDMI display and the USB keyboard. From next time, you don't have to use the display and the keyboard anymore.
+9. Unplug the HDMI display and the USB keyboard from the JetBot.
+10. From next time, you don't have to use the display and the keyboard anymore.
 
 ## 3. Remote Access and Additional Setup
 ### Access to the JetBot via Web Browser
