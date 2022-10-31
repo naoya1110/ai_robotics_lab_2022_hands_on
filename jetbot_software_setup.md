@@ -30,15 +30,15 @@ YouTube: https://youtu.be/6I9ZT5NKmsA
 1. Open the Terminal from the Launcher.
 2. Execute the command ```apt update```
 3. Execute the command ```apt install ssh -y```
-4. Login with SSH ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
-5. Expand the diskspace by the commands
+4. Login via SSH ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
+5. Expand the diskspace by the commands,
     ```
     cd jetcard
     git pull
     ./scripts/jetson_install_nvresizefs_service.sh
     ```
-1. Reboot the JetBot by the command ```sudo reboot now```
+1. Reboot the JetBot by the command ```sudo reboot now```.
 
 ## Regular Shutdown
-1. ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
-2. ```sudo shutdown now``` with the password ```jetbot```.
+1. Login via SSH ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
+2. Shutdown by the command ```sudo shutdown now``` with the password ```jetbot```.
