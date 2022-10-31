@@ -15,7 +15,7 @@
 3. Turn on the JetBot power switch to boot.
 4. Login with the username ```jetbot``` and the password ```jetbot```.
 5. Check available WiFi by the command ```sudo nmcli device wifi list``` with the password ```jetbot```.
-6. Connect to one of the available WiFi by the command ```sudo nmcli device wifi connect <WiFi SSID> password <WiFi PASSWORD>```
+6. Connect to one of the available WiFi by the command ```sudo nmcli device wifi connect <WiFi_SSID> password <WiFi_PASSWORD>```
 7. Shutdown the JetBot by the command ```sudo shutdown now```.
 8. Turn off the JetBot power switch.
 9. Unplug the HDMI display and the USB keyboard. From next time, you don't have to use the display and the keyboard anymore.
