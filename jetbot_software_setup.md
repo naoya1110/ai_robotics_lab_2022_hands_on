@@ -1,5 +1,7 @@
 # JetBot Software Setup
-YouTube: https://youtu.be/6I9ZT5NKmsA
+Video Instruction: https://youtu.be/6I9ZT5NKmsA
+Official Instruction: https://jetbot.org/master/software_setup/sd_card.html
+Note that following instruction includes some important processes that are not included above.
 
 ## 1. Flash JetBot SD Card Image
 1. Download JetBot SD card image for Jetson Nano 4GB from [here](https://drive.google.com/file/d/1o08RPDRZuDloP_o76tCoSngvq1CVuCDh/view?usp=sharing).
