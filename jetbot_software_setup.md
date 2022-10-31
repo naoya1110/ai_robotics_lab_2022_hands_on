@@ -16,7 +16,7 @@ YouTube: https://youtu.be/6I9ZT5NKmsA
 6. Connect to one of the available WiFi network by the command ```sudo nmcli device wifi connect <WiFi SSID> password <PASSWORD>```
 7. Shutdown the JetBot by the command ```sudo shutdown now```
 8. Turn off the JetBot power switch.
-9. Unplug the HDMI display and the USB keyboard. From next time, we don't use the display and keyboard anymore.
+9. Unplug the HDMI display and the USB keyboard. From next time, we don't use the display and the keyboard anymore.
 
 ## 3. Additional Setup
 ### Access to the JetBot via Web Browser
@@ -28,9 +28,9 @@ YouTube: https://youtu.be/6I9ZT5NKmsA
 
 ### Install SSH and Expand Disk Space
 1. Open the Terminal from the Launcher.
-2. Execute the command ```apt update```
-3. Execute the command ```apt install ssh -y```
-4. Login via SSH ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
+2. Update apt by the command ```apt update```
+3. Install SSH by the command ```apt install ssh -y```
+4. Login via SSH by the command ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
 5. Expand the diskspace by the commands,
     ```
     cd jetcard
@@ -40,5 +40,7 @@ YouTube: https://youtu.be/6I9ZT5NKmsA
 1. Reboot the JetBot by the command ```sudo reboot now```.
 
 ## 4. Regular Shutdown
-1. Login via SSH ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
+After finishing above setups, you can shutdown your JetBot from the terminal via web browser.
+1. If needed, open a terminal from the Launcher.
+1. Login via SSH by the command ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
 2. Shutdown by the command ```sudo shutdown now``` with the password ```jetbot```.
