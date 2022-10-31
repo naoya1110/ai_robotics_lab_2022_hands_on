@@ -8,7 +8,7 @@
 2. Download balenaEtcher from [here](https://www.balena.io/etcher/) and install it to your PC.
 3. Instert an empty micro SD card into your PC.
 4. Flash JetBot SD card image ```jetbot-043_nano-4gb-jp45.zip``` onto the micro SD card with balenaEtcher.
-    <img src="imgs/etcher.jpg" width="200">
+    <img src="imgs/etcher.jpg" width="300">
 
 ## 2. First Boot and WiFi Setup
 1. Insert the micro SD card into the JetBot.
