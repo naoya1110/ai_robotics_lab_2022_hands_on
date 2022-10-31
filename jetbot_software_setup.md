@@ -21,7 +21,7 @@
 9. Unplug the HDMI display and the USB keyboard from the JetBot.
 10. From next time, you don't have to use the display and the keyboard anymore.
 
-## 3. Remote Access and Additional Setup
+## 3. Remote Access and Additional Setups
 ### Access to the JetBot via Web Browser
 1. Boot the JetBot. Wait for the JetBot to be connected to the WiFi.
 2. Check the IP address shown on the JetBot display.
