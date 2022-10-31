@@ -26,7 +26,7 @@
 1. Boot the JetBot. Wait for the JetBot to be connected to the WiFi.
 2. Check the IP address shown on the JetBot display.
 3. Make sure your computer is connected to the same WiFi with your JetBot.
-4. Open an web browser and access to ```http://<JETBOT_IP_ADDRESS>:8888```, e.g. ```http://192.168.10.2:8888```.
+4. Open a web browser and access to ```http://<JETBOT_IP_ADDRESS>:8888```, e.g. ```http://192.168.10.2:8888```.
 5. Login to the JetBot with the password ```jetbot```.
 
 ### Install SSH and Expand Disk Space
