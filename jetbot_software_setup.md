@@ -13,7 +13,7 @@
     <img src="imgs/download_etcher.jpg" width="300">    
 
 4. Instert an empty micro SD card into your PC.
-5. Flash the JetBot SD card image ```jetbot-043_nano-4gb-jp45.zip``` onto the micro SD card with balenaEtcher.
+5. Flash the JetBot SD card image ```jetbot-043_nano-4gb-jp45.zip``` onto the micro SD card using balenaEtcher.
     
     <img src="imgs/etcher.jpg" width="400">
 
