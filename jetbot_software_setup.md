@@ -29,44 +29,68 @@
 
 4. Login with the username ```jetbot``` and the password ```jetbot```.
 
-    <img src="imgs/login_first_boot.jpg" width="300">
+    <img src="imgs/login_first_boot.jpg" width="250">
 
 5. Check available WiFi by the command ```sudo nmcli device wifi list``` with the password ```jetbot```.
 
-    <img src="imgs/check_available_wifi.jpg" width="400">
+    <img src="imgs/check_available_wifi.jpg" width="450">
 
 6. Connect to one of the available WiFi by the command ```sudo nmcli device wifi connect <WiFi_SSID> password <WiFi_PASSWORD>```
 
-    <img src="imgs/connect_wifi.jpg" width="700">
+    <img src="imgs/connect_wifi.jpg" width="800">
 
 7. Shutdown the JetBot by the command ```sudo shutdown now```.
 8. Turn off the JetBot power switch.
-9. Unplug the HDMI display and the USB keyboard from the JetBot.
-10. From next time, you don't have to use the display and the keyboard anymore.
+9. Unplug the HDMI display and the USB keyboard from the JetBot. From next time, you don't need the display and the keyboard anymore.
 
 ## 3. Remote Access and Additional Setups
 ### Access to the JetBot via Web Browser
 1. Boot the JetBot. Wait for the JetBot to be connected to the WiFi.
 2. Check the IP address shown on the JetBot display.
+
+    <img src="imgs/ip_on_oled.jpg" width="300">
+
 3. Make sure your computer is connected to the same WiFi with your JetBot.
-4. Open a web browser and access to ```http://<JETBOT_IP_ADDRESS>:8888```, e.g. ```http://192.168.10.2:8888```.
+4. Open a web browser and access to ```http://<JETBOT_IP_ADDRESS>:8888```, e.g. ```http://192.168.11.11:8888```.
+
+    <img src="imgs/ip_in_browser.jpg" width="300">
+
 5. Login to the JetBot with the password ```jetbot```.
 
-### Install SSH and Expand Disk Space
+    <img src="imgs/login_via_browser.jpg" width="300">
+
+### Install SSH and Reconfigure Partition
 1. Open the Terminal from the Launcher.
-2. Update apt by the command ```apt update```.
+
+    <img src="imgs/start_terminal.jpg" width="400">
+
+2. Update APT by the command ```apt update```.
+
+    <img src="imgs/apt_update.jpg" width="335">
+
 3. Install SSH by the command ```apt install ssh -y```.
+
+    <img src="imgs/apt_install_ssh.jpg" width="400">
+
+
 4. Login via SSH by the command ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
-5. Expand the diskspace by the commands,
+
+    <img src="imgs/ssh_jetbot.jpg" width="400">
+
+5. Reconfigure the partitions by the commands,
     ```
     cd jetcard
     git pull
     ./scripts/jetson_install_nvresizefs_service.sh
     ```
-1. Reboot the JetBot by the command ```sudo reboot now```.
+1. Shutdown the JetBot by the command ```sudo shutdown now```.
+
+1. Boot the JetBot again. Now you have more free disk space.
+
+    <img src="imgs/more_free_disk.jpg" width="300">
 
 ## 4. Regular Shutdown
-After finishing above setups, you can shutdown your JetBot from the terminal via web browser.
+After finishing above setups, you can shutdown your JetBot from the terminal via the web browser.
 1. If needed, open a terminal from the Launcher.
 1. Login via SSH by the command ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
 2. Shutdown by the command ```sudo shutdown now``` with the password ```jetbot```.
