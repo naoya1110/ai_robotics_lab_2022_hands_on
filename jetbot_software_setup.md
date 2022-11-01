@@ -45,7 +45,7 @@
 
 ## 3. Remote Access and Additional Setups
 ### Access to the JetBot via Web Browser
-1. Boot the JetBot. Wait for the JetBot to be connected to the WiFi.
+1. Boot the JetBot. Wait for the JetBot to be connected to the WiFi automatically.
 2. Check the IP address shown on the JetBot display.
 
     <img src="imgs/ip_on_oled.jpg" width="300">
