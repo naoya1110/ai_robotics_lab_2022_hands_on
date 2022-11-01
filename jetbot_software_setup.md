@@ -57,7 +57,7 @@
 
 5. Login to the JetBot with the password ```jetbot```.
 
-    <img src="imgs/login_via_browser.jpg" width="300">
+    <img src="imgs/login_via_browser.jpg" width="400">
 
 ### Install SSH and Reconfigure Partition
 1. Open the Terminal from the Launcher.
