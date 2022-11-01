@@ -9,6 +9,9 @@
     <img src="imgs/get_sd_card_image.jpg" width="300">
 
 3. Download balenaEtcher from [here](https://www.balena.io/etcher/) and install it to your PC.
+
+    <img src="imgs/download_etcher.jpg" width="300">    
+
 4. Instert an empty micro SD card into your PC.
 5. Flash JetBot SD card image onto the micro SD card with balenaEtcher.
     
@@ -16,11 +19,26 @@
 
 ## 2. First Boot and WiFi Setup
 1. Insert the micro SD card into the JetBot.
+
+    <img src="imgs/insert_sd_card.jpg" width="300">
+
 2. Plug an HDMI display and a USB keyboard to the JetBot.
 3. Turn on the JetBot power switch to boot.
+
+    <img src="imgs/jetbot_power_switch.jpg" width="300">
+
 4. Login with the username ```jetbot``` and the password ```jetbot```.
+
+    <img src="imgs/login_first_boot.jpg" width="300">
+
 5. Check available WiFi by the command ```sudo nmcli device wifi list``` with the password ```jetbot```.
+
+    <img src="imgs/check_available_wifi.jpg" width="400">
+
 6. Connect to one of the available WiFi by the command ```sudo nmcli device wifi connect <WiFi_SSID> password <WiFi_PASSWORD>```
+
+    <img src="imgs/connect_wifi.jpg" width="700">
+
 7. Shutdown the JetBot by the command ```sudo shutdown now```.
 8. Turn off the JetBot power switch.
 9. Unplug the HDMI display and the USB keyboard from the JetBot.
