@@ -77,7 +77,7 @@
 
     <img src="imgs/ssh_jetbot.jpg" width="400">
 
-5. Reconfigure the partitions by the commands,
+5. Reconfigure the partition by the commands,
     ```
     cd jetcard
     git pull
@@ -85,7 +85,7 @@
     ```
 1. Shutdown the JetBot by the command ```sudo shutdown now```.
 
-1. Boot the JetBot again. Now you have more free disk space.
+1. Boot the JetBot again. Now you have more free space in your disk.
 
     <img src="imgs/more_free_disk.jpg" width="300">
 
