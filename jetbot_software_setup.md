@@ -4,10 +4,14 @@
 - Note that following instruction includes some important processes that are not included above.
 
 ## 1. Flash JetBot SD Card Image
-1. Download JetBot SD card image for Jetson Nano 4GB from [here](https://drive.google.com/file/d/1o08RPDRZuDloP_o76tCoSngvq1CVuCDh/view?usp=sharing).
-2. Download balenaEtcher from [here](https://www.balena.io/etcher/) and install it to your PC.
-3. Instert an empty micro SD card into your PC.
-4. Flash JetBot SD card image ```jetbot-043_nano-4gb-jp45.zip``` onto the micro SD card with balenaEtcher.
+1. Download JetBot SD card image for Jetson Nano 4GB ```jetbot-043_nano-4gb-jp45.zip``` from [here](https://jetbot.org/master/software_setup/sd_card.html).
+
+    <img src="imgs/get_sd_card_image.jpg" width="300">
+
+3. Download balenaEtcher from [here](https://www.balena.io/etcher/) and install it to your PC.
+4. Instert an empty micro SD card into your PC.
+5. Flash JetBot SD card image onto the micro SD card with balenaEtcher.
+    
     <img src="imgs/etcher.jpg" width="300">
 
 ## 2. First Boot and WiFi Setup
