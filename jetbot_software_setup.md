@@ -93,4 +93,4 @@
 After finishing above setups, you can shutdown your JetBot from the terminal via the web browser.
 1. If needed, open a terminal from the Launcher.
 1. Login via SSH by the command ```ssh jetbot@0.0.0.0``` then type ```yes``` and password ```jetbot```.
-2. Shutdown by the command ```sudo shutdown now``` with the password ```jetbot```.
+2. Shutdown the JetBot by the command ```sudo shutdown now``` with the password ```jetbot```.
