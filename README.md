@@ -29,5 +29,5 @@ This is the repository of hands-on practice in NCKU-NITKC AI Robotics Lab in 202
 ### Part2 - JetBot
 - Week10
   - JetBot Software Setup [[instruction]](https://github.com/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week10_Jetbot_Software_Setup.md)
-  - Basic Motion [[official document]](https://jetbot.org/master/examples/basic_motion.html)  [[video instruction]](https://www.youtube.com/watch?v=NOVP-gq_MQA)
+  - Basic Motion [[official document]](https://jetbot.org/master/examples/basic_motion.html)  [[video instruction]](https://youtu.be/NOVP-gq_MQA)
   - Teleoperation [[official document]](https://jetbot.org/master/examples/teleoperation.html)  [[video instruction]](https://youtu.be/irvunnfxF1g)
