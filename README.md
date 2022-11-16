@@ -23,8 +23,10 @@ This is the repository of hands-on practice in NCKU-NITKC AI Robotics Lab in 202
 - Week08
   - Transfer Learning [[notebook]](https://colab.research.google.com/github/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/Week08_Transfer_Learning.ipynb)
 
+- Week09
+  - Object Detection
 
 ### Part2 - JetBot
-- Week09
+- Week10
   - JetBot Software Setup [[instruction]](https://github.com/naoya1110/ai_robotics_lab_2022_hands_on/blob/main/jetbot_software_setup.md)
   - Basic Motion [[official document]](https://jetbot.org/master/examples/basic_motion.html)  [[video instruction]](https://www.youtube.com/watch?v=NOVP-gq_MQA)
