@@ -33,4 +33,4 @@ This is the repository of hands-on practice in NCKU-NITKC AI Robotics Lab in 202
   - Teleoperation [[official document]](https://jetbot.org/master/examples/teleoperation.html)  [[video instruction]](https://youtu.be/irvunnfxF1g)
 
 - Week11
-  - Road Following by Classification Model [[Video Instruction]](https://youtu.be/KTr65GylSZo) [[GitHub repo]](https://github.com/naoya1110/road_following_by_classification)
+  - Road Following by Classification Model [[GitHub repo]](https://github.com/naoya1110/road_following_by_classification)[[Video Instruction]](https://youtu.be/KTr65GylSZo)
