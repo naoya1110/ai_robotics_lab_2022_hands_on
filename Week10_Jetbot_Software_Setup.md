@@ -1,11 +1,11 @@
 # JetBot Software Setup
 <!--
-- Video Instruction: https://youtu.be/6I9ZT5NKmsA
-- Official Instruction: https://jetbot.org/master/software_setup/sd_card.html
+  - Video Instruction: https://youtu.be/6I9ZT5NKmsA
+  - Official Instruction: https://jetbot.org/master/software_setup/sd_card.html
 -->
 - You need a PC, an HDMI display and a USB keyboard to setup.
 <!--
-- We recommend you to follow the instruction below it includes some updates that are not included above.
+  - We recommend you to follow the instruction below it includes some updates that are not included above.
 -->
   
 ## 1. Flash JetBot SD Card Image
