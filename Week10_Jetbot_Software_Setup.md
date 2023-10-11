@@ -4,7 +4,7 @@
 - Official Instruction: https://jetbot.org/master/software_setup/sd_card.html
 -->
 - You need a PC, an HDMI display and a USB keyboard to setup.
-  <!--
+<!--
 - We recommend you to follow the instruction below it includes some updates that are not included above.
 -->
   
